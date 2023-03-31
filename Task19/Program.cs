@@ -13,11 +13,11 @@ Console.WriteLine(result);
 string PalindromeCheck(int num)
 {
     if (num < 10000 || num > 99999) return "Число не пятизначное";
-    int firstNum = num / 10000;
-    int secondNum = num / 1000 % 10;
-    int fourthNum = num / 10 % 10;
-    int fifthNum = num % 10;
-    if (firstNum == fifthNum && secondNum == fourthNum) return "Число является палиндромом";
+    int firstDigit = num / 10000;
+    int secondDigit = num / 1000 % 10;
+    int fourthDigit = num / 10 % 10;
+    int fifthDigit = num % 10;
+    if (firstDigit == fifthDigit && secondDigit == fourthDigit) return "Число является палиндромом";
     return "Число не является палиндромом";
 }
 
