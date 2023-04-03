@@ -2,7 +2,7 @@
 // и выдает количество цифр в числе
 
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
 int result = HowManyDigits(number);
 Console.WriteLine($"В числе {result} цифр");
