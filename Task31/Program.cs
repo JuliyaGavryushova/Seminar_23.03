@@ -2,10 +2,9 @@
 // промежутка [-9, 9]. Найдите сумму отрицательных и положительных элементов массива
 
 int[] array = CreateArrayRndInt(12, -9, 9);
+PrintArray(array);
 int sumPositive = SumPositiveElements(array);
 int sumNegative = SumNegativeElements(array);
-
-PrintArray(array);
 Console.WriteLine();
 Console.WriteLine($"Сумма положительных элементов массива => {sumPositive}");
 Console.WriteLine($"Сумма отрицательных элементов массива => {sumNegative}");
