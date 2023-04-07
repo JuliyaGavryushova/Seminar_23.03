@@ -7,7 +7,6 @@ int quantityEvenNum = EvenNumbersArray(array);
 Console.WriteLine();
 Console.WriteLine($"Количество четных чисел в массиве равно => {quantityEvenNum}");
 
-
 int[] CreateArrayRndInt(int size, int min, int max)
 {
     int[] arr = new int[size];
